@@ -47,7 +47,7 @@ There is no noticeable impact on the metrics when measured to the .1% of school 
 
 
 ## Summary: 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+In order to maintain state grading standards and make the school district data compatable/comparable with other school district data for larger data sets and more analysis, it was important to voide the values for the compromised data. While the 9th grade scores from THS cannot be used, their ommission has little impact on our results. This can give the project confidence that the analyis in the absence of our dataset has integrity. The conclusions from the district wide summaries remain enforced. List some here. The impact of the polluted data was prescribed exclusively to THS results, and even then the greatst variance in comparison tobefore and after was 0.3%. We saw this play out on the individual  oSummarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
 
 ## Resources
