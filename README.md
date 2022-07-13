@@ -12,8 +12,6 @@ A full analysis of the schools districts was delivered to the school board for r
 ## Results: Relative Impact Before & After Polluted/Compromised Data Removal
 ### Thomas High School Summary Results
 
-![school_summary_before](https://user-images.githubusercontent.com/107326987/178653768-0b3ac36d-1356-4c5c-b4cc-22ebf5c72f34.png)
-
 ![school_summary_after](https://user-images.githubusercontent.com/107326987/178653578-a9d43f6f-469b-4634-a7dd-be4b9d5b86e3.png)
 
 The overall metrics for THS were negligably affected by ommitting the data from the 9th grade reading and writing scores. Originally % Passing Math, % Passing Reading and % Overall Passing were 93.2%	97.3%	90.9% respectively. In the absence of the 9th grade scores, these data points are 93.2%, 97.0% and 90.6% respectively. Across these three data points the most significant change was +/-0.3%. While the 9th grade data may not have had integrity, it was relatively consistent with the rest of the dataset. The 9th grade data was not holding THS's performance metrics artifically low or high.
@@ -35,7 +33,7 @@ Outside of the relatively small changes in the singular metrics of THS (reading,
 The first and second image reflect the math and reading averages per grade per school after ommitting THS 9th grade scores. These metrics remain unchanged as they are teased apart by school and by grade, here you are able to see the value "NaN" in place of the score for THS, grade 9 in both math and reading.
 
 ### Scores by School Spending
-![scores_by_size_after](https://user-images.githubusercontent.com/107326987/178653899-125e454f-c90d-4fc5-a451-fcf74feb89e7.png)
+![school_spending_before](https://user-images.githubusercontent.com/107326987/178660425-57f80450-7298-4baf-9fe2-ec36935a403b.png)
 Any reflection points here?
 There is no noticeable impact on the metrics when measured to the .1% of spending based on avg. scores.
 ### Scores by School Size
